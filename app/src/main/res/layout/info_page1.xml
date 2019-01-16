@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/intro_image"
+                android:paddingTop="40dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="50dp"
+                android:gravity="center"
+                android:text="Name of the picture" />
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:padding="20dp"
+                        android:text="Les Tournesols sont le nom attribué à chacun des sept tableaux peints à Arles par Vincent van Gogh en août 1888 pour les quatre premiers tableaux qui composent la série proprement dite et en janvier 1889 pour les trois derniers, appelés les Répétitions.
+                        \n\n Cette série de natures mortes se compose notamment de trois peintures semblables avec quinze tournesols dans un vase et deux peintures similaires avec douze tournesols dans un vase. \n C'est en août 1888, alors qu'il habitait à Arles (France) que Van Gogh a réalisé le premier vase avec douze tournesols, qui est aujourd'hui exposé à la Neue Pinakothek à Munich en Allemagne, ainsi que le premier vase avec quinze tournesols, qui est maintenant à la National Gallery de Londres en Angleterre.
+
+Les peintures montrent des tournesols dans toutes les étapes de leur vie, de la pleine floraison jusqu'au flétrissement. Les tableaux étaient innovateurs pour l'époque par l'utilisation d'un large spectre de jaunes rendue possible par l'invention de nouveaux colorants.
+
+\n\n Au départ, Van Gogh a peint les premiers Tournesols pour décorer la chambre à coucher de son ami Paul Gauguin. En 1891, l'écrivain Octave Mirbeau en achète un au père Tanguy pour 300 francs (900 euros).
+
+\n\n En mars 1987, même les personnes n'ayant aucune affinité pour l'art ont appris l'existence de la série Les Tournesols lorsque le magnat japonais de l'assurance, Yasuo Goto, a acheté l'un des tableaux pour l'équivalent de 40,8 millions d'euros lors d'une vente aux enchères chez Christie's à Londres, prix qui constituait à l'époque un record pour une œuvre de Van Gogh1. Achat qui a fait écrire au chanteur Jean Ferrat Les Tournesols en 1991, chanson où il s'insurge contre la somme mirobolante consacrée à cet achat et pense à la misère dans laquelle a vécu Vincent van Gogh. Ferrat avait déjà écrit la chanson L'Homme à l'oreille coupée en hommage au peintre en 1962.
+
+" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Close" />
+
+    </LinearLayout>
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:src="@drawable/art12"-->
+        <!--android:scaleType="centerInside"/>-->
+
+</LinearLayout>

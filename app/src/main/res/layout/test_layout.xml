@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/planetInfoCard"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Test"
+        android:textAlignment="center"
+        android:visibility="gone"/>
+
+    <!--<Button-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:text="more"-->
+        <!--android:textSize="10dp"-->
+        <!--android:id="@+id/btn_0"-->
+        <!--android:gravity="center" />-->
+    <ImageView
+        android:id="@+id/btn_imgbtn"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/infoicon"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:gravity="center"/>
+</LinearLayout>
